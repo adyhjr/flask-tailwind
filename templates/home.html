@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{url_for('static',filename='css/output.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='css/vncss.css')}}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <title>Visit Norway</title>
+</head>
+
+<body>
+
+<!-- Class contains background video -->
+<div class="videobg">
+    <div class="videobg">
+    <video class="liveflex" autoplay loop muted>
+        <source src="./static/video_norway.mp4" type="video/mp4">
+    </video>
+</div>
+</div>
+
+ <div class="logo">
+    <img class="liveflex" src="./static/norway.png"alt="Logo">
+</div>
+
+<div class="button_container">
+       <button class="bg-transparent hover:animate-pulse text-white font-bold hover:text-white py-2 px-8 rounded-3xl">
+      Learn More
+        </button>
+        <button class="bg-transparent hover:animate-pulse text-white font-bold hover:text-white py-2 px-8 rounded-3xl">
+      Visit Norway
+        </button>
+        <button class="bg-transparent hover:animate-pulse text-white font-bold hover:text-white py-2 px-8 rounded-3xl">
+      Explore
+        </button>
+</div>
+
+
+
+
+</body>
+</html>
